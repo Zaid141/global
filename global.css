@@ -1,0 +1,1469 @@
+
+@media screen and (min-width: 1440px){
+
+
+html, body {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+.map{
+    max-width: 100%;
+    height: auto;
+}
+
+.gdot{
+    position:relative;
+    left: 62%;
+    bottom: 50.2%;
+    height: 12px;
+    cursor: pointer;
+}
+
+.gdot:hover{
+    transform: scale(1.5);
+    transition: all .3s ease-in-out;
+}
+
+.tabac{
+    position:absolute;
+    height: 40%;
+    top: 12%;
+}
+
+.history{
+    position:absolute;
+    left: 50%;
+}
+
+.Ingredients{
+    position: absolute;
+    top: 38%;
+    left: 53%;
+}
+
+.Ingredients_{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 48%;
+}
+
+.rise{
+    position: absolute;
+    top: 60%;
+    left: 53.2%;
+}
+
+.rise_{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 70%;
+}
+
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    max-width: 80%;
+    overflow-y: auto;
+    background-color:navajowhite;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    /* padding: 10px 15px; */
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 19%;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+/* Perfume no.2  Sudan*/
+
+.gdot1{
+    position:relative;
+    left: 53%;
+    bottom: 49%;
+    height: 12px;
+    cursor: pointer;
+}
+
+.gdot1:hover{
+    transform: scale(1.5);
+    transition: all .3s ease-in-out;
+}
+.sudan{
+    position:absolute;
+    height: 40%;
+    top: 12%;
+}
+
+.history1{
+    position:absolute;
+    left: 50%;
+}
+
+.Ingredients1{
+    position: absolute;
+    top: 48%;
+    left: 53%;
+}
+
+.Ingredients_1{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 58%;
+}
+
+.rise1{
+    position: absolute;
+    top: 70%;
+    left: 53.2%;
+}
+
+.rise_1{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 80%;
+}
+
+
+
+.modal1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    max-width: 80%;
+    overflow-y: auto;
+    background-color:darkcyan;
+  }
+  
+  .modal1.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header1 {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .modal-header1 .title1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header1 .close-button1 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body1 {
+    /* padding: 10px 15px; */
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 19%;
+  }
+  
+  #overlay1 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay1.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  /* Perfume no.3  Chanel*/
+
+.gdot2{
+    position:relative;
+    left: 45%;
+    bottom: 65%;
+    height: 12px;
+    cursor: pointer;
+}
+
+.gdot2:hover{
+    transform: scale(1.5);
+    transition: all .3s ease-in-out;
+}
+.chanel{
+    position:absolute;
+    height: 40%;
+    top: 12%;
+}
+
+.history2{
+    position:absolute;
+    left: 50%;
+}
+
+.Ingredients2{
+    position: absolute;
+    top: 48%;
+    left: 53%;
+}
+
+.Ingredients_2{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 58%;
+}
+
+.rise2{
+    position: absolute;
+    top: 70%;
+    left: 53.2%;
+}
+
+.rise_2{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 80%;
+}
+
+
+
+.modal2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    max-width: 80%;
+    overflow-y: auto;
+    background-color:#2c415d;
+  }
+  
+  .modal2.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header2 {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .modal-header2 .title2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header2 .close-button2 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body2 {
+    /* padding: 10px 15px; */
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 19%;
+  }
+  
+  #overlay2 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay2.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+
+  /* Perfume no.4 South Africa*/
+
+.gdot3{
+    position:relative;
+    left: 50%;
+    bottom: 17%;
+    height: 12px;
+    cursor: pointer;
+}
+
+.gdot3:hover{
+    transform: scale(1.5);
+    transition: all .3s ease-in-out;
+}
+.Southafrica{
+    position:absolute;
+    height: 40%;
+    top: 12%;
+}
+
+.history3{
+    position:absolute;
+    left: 50%;
+}
+
+.Ingredients3{
+    position: absolute;
+    top: 35%;
+    left: 53%;
+}
+
+.Ingredients_3{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 44%;
+}
+
+.rise3{
+    position: absolute;
+    top: 58%;
+    left: 53.2%;
+}
+
+.rise_3{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 68%;
+}
+
+
+
+.modal3 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    max-width: 80%;
+    overflow-y: auto;
+    background-color:rgb(157, 152, 129);
+  }
+  
+  .modal3.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header3 {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .modal-header3 .title3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header3 .close-button3 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body3 {
+    /* padding: 10px 15px; */
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 19%;
+  }
+  
+  #overlay3 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay3.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+   /* Perfume no.5*/
+
+.gdot4{
+    position:relative;
+    left: 51%;
+    bottom: 54%;
+    height: 12px;
+    cursor: pointer;
+
+}
+
+.gdot4:hover{
+    transform: scale(1.5);
+    transition: all .3s ease-in-out;
+}
+.Southafrica{
+    position:absolute;
+    height: 40%;
+    top: 12%;
+}
+
+.history4{
+    position:absolute;
+    left: 50%;
+}
+
+.Ingredients4{
+    position: absolute;
+    top: 48%;
+    left: 53%;
+}
+
+.Ingredients_4{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 58%;
+}
+
+.rise4{
+    position: absolute;
+    top: 70%;
+    left: 53.2%;
+}
+
+.rise_4{
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 80%;
+}
+
+
+
+.modal4 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    max-width: 80%;
+    overflow-y: auto;
+    background-color:rgb(168, 134, 49);
+  }
+  
+  .modal4.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header4 {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .modal-header4 .title4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header4 .close-button4 {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body4 {
+    /* padding: 10px 15px; */
+    text-align:justify;
+    position: absolute;
+    left: 28%;
+    padding-right: 8px;
+    top: 19%;
+  }
+  
+  #overlay4 {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay4.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+
+    /* Perfume no.6*/
+
+.gdot5{
+  position:relative;
+  left: 29%;
+  bottom: 29%;
+  height: 12px;
+  cursor: pointer;
+
+}
+
+.gdot5:hover{
+  transform: scale(1.5);
+  transition: all .3s ease-in-out;
+}
+.brazil{
+  position:absolute;
+  height: 40%;
+  top: 12%;
+}
+
+.history5{
+  position:absolute;
+  left: 50%;
+}
+
+.Ingredients5{
+  position: absolute;
+  top: 48%;
+  left: 53%;
+}
+
+.Ingredients_5{
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 58%;
+}
+
+.rise5{
+  position: absolute;
+  top: 70%;
+  left: 53.2%;
+}
+
+.rise_5{
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 80%;
+}
+
+
+
+.modal5 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  max-width: 80%;
+  overflow-y: auto;
+  background-color:rgb(233, 166, 72);
+}
+
+.modal5.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header5 {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header5 .title5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header5 .close-button5 {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body5 {
+  /* padding: 10px 15px; */
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 19%;
+}
+
+#overlay5 {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay5.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+ /* Perfume no.7 tom ford*/
+
+ .gdot6{
+  position:relative;
+  left: 15%;
+  bottom: 61%;
+  height: 12px;
+  cursor: pointer;
+
+}
+
+.gdot6:hover{
+  transform: scale(1.5);
+  transition: all .3s ease-in-out;
+}
+.tomford{
+  position:absolute;
+  height: 40%;
+  top: 12%;
+}
+
+.history6{
+  position:absolute;
+  left: 50%;
+}
+
+.Ingredients6{
+  position: absolute;
+  top: 48%;
+  left: 53%;
+}
+
+.Ingredients_6{
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 58%;
+}
+
+.rise6{
+  position: absolute;
+  top: 70%;
+  left: 53.2%;
+}
+
+.rise_6{
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 80%;
+}
+
+
+
+.modal6 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  max-width: 80%;
+  overflow-y: auto;
+  background-color:rgb(255, 224, 145);
+}
+
+.modal6.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header6 {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header6 .title6 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header6 .close-button6{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body6 {
+  /* padding: 10px 15px; */
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 19%;
+}
+
+#overlay6 {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay6.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+/* Perfume no.8 Russia*/
+
+.gdot7{
+  position:relative;
+  left: 65%;
+  bottom: 75%;
+  height: 12px;
+  cursor: pointer;
+
+}
+
+.gdot7:hover{
+  transform: scale(1.5);
+  transition: all .3s ease-in-out;
+}
+.russia{
+  position:absolute;
+  height: 40%;
+  top: 12%;
+}
+
+.history7{
+  position:absolute;
+  left: 50%;
+}
+
+.Ingredients7{
+  position: absolute;
+  top: 48%;
+  left: 53%;
+}
+
+.Ingredients_7{
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 58%;
+}
+
+.rise7{
+  position: absolute;
+  top: 70%;
+  left: 53.2%;
+}
+
+.rise_7{
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 80%;
+}
+
+
+
+.modal7 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  max-width: 80%;
+  overflow-y: auto;
+  background-color:rgb(155, 63, 34);
+}
+
+.modal7.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header7 {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header7 .title7 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header7 .close-button7{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body7 {
+  /* padding: 10px 15px; */
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 19%;
+}
+
+#overlay7 {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay7.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+/* Perfume no.9 India*/
+
+.gdot8{
+  position:relative;
+  left: 59.5%;
+  bottom: 47%;
+  height: 12px;
+  cursor: pointer;
+
+}
+
+.gdot8:hover{
+  transform: scale(1.5);
+  transition: all .3s ease-in-out;
+}
+.india{
+  position:absolute;
+  height: 40%;
+  top: 12%;
+}
+
+.history8{
+  position:absolute;
+  left: 50%;
+}
+
+.Ingredients8{
+  position: absolute;
+  top: 48%;
+  left: 53%;
+}
+
+.Ingredients_8{
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 58%;
+}
+
+.rise8{
+  position: absolute;
+  top: 90%;
+  left: 53.2%;
+}
+
+.rise_8{
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 100%;
+}
+
+
+
+.modal8 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  max-width: 80%;
+  overflow-y: auto;
+  background-color:rgb(135, 23, 69);
+}
+
+.modal8.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header8 {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header8 .title8 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header8 .close-button8{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body8 {
+  /* padding: 10px 15px; */
+  text-align:justify;
+  position: absolute;
+  left: 28%;
+  padding-right: 8px;
+  top: 19%;
+}
+
+#overlay8 {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay8.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+
+/* n0.10 aristotle*/
+
+.gdot9{
+  position:relative;
+  left: 43.2%;
+  bottom: 59%;
+  height: 12px;
+  cursor: pointer;
+
+}
+
+.gdot9:hover{
+  transform: scale(1.5);
+  transition: all .3s ease-in-out;
+}
+.india{
+  position:absolute;
+  height: 40%;
+  top: 12%;
+}
+
+
+
+.modal9 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  max-width: 80%;
+  overflow-y: auto;
+  background-color:rgb(134, 126, 126);
+}
+
+.modal9.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header9 {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header9 .title9 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header9 .close-button9{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body9 {
+  /* padding: 10px 15px; */
+  text-align:justify;
+  position: absolute;
+  left: 24%;
+  padding-right: 8px;
+  top: 19%;
+}
+
+#overlay9 {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay9.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+/* n0.11 kant*/
+
+.gdot10{
+  position:relative;
+  left: 45.3%;
+  bottom: 54.9%;
+  height: 12px;
+  cursor: pointer;
+
+}
+
+.gdot10:hover{
+  transform: scale(1.5);
+  transition: all .3s ease-in-out;
+}
+.india{
+  position:absolute;
+  height: 40%;
+  top: 12%;
+}
+
+
+
+.modal10 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  max-width: 80%;
+  overflow-y: auto;
+  background-color:rgb(134, 126, 126);
+}
+
+.modal10.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header10 {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header10 .title10 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header10 .close-button10{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body10 {
+  /* padding: 10px 15px; */
+  text-align:justify;
+  position: absolute;
+  left: 24%;
+  padding-right: 8px;
+  top: 19%;
+}
+
+#overlay10 {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay10.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+/* n0.12 solomon */
+
+.gdot11{
+  position:relative;
+  left: 38.5%;
+  bottom: 69%;
+  height: 12px;
+  cursor: pointer;
+
+}
+
+.gdot11:hover{
+  transform: scale(1.5);
+  transition: all .3s ease-in-out;
+}
+.india{
+  position:absolute;
+  height: 40%;
+  top: 12%;
+}
+
+
+
+.modal11 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 800px;
+  height: 500px;
+  max-width: 80%;
+  overflow-y: auto;
+  background-color:rgb(134, 126, 126);
+}
+
+.modal11.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header11 {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header11 .title11 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header11 .close-button11{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body11 {
+  /* padding: 10px 15px; */
+  text-align:justify;
+  position: absolute;
+  left: 24%;
+  padding-right: 8px;
+  top: 19%;
+}
+
+#overlay11 {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay11.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.box{
+  width: 320px;
+  padding: 10px;
+  height: 120px;
+  border: 5px solid gray;
+  margin: 0; 
+  position: relative;
+  bottom: 14%;
+  
+}
+
+.key{
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.green{
+  height: 15px;
+  position: relative;
+  top: 15%;
+  
+
+}
+
+.red{
+  height: 15px;
+  position: relative;
+  top: 50%;
+  right: 6.5%;
+}
+
+.philo{
+position: relative;
+bottom: 35%;
+left: 7%;
+}
+
+.perfume{
+  position: relative;
+  bottom: 32%;
+  left: 7%;
+  }
+}

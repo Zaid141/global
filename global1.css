@@ -1,0 +1,102 @@
+body {
+    /* background-image: url('space.png'); */
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+  }
+
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: -21%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+  }
+/* general layout of starting screen */
+.start{
+  font-size: 5em;
+  font-family: 'Silkscreen', cursive;
+  font-weight: 500;
+  color: transparent;
+  letter-spacing: 5px;
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  text-align: center;
+  left: 50%;
+}
+/* give the lighting up hover effect for corresponding text on starting screen */
+/* h2:hover{
+  color: transparent;
+  text-shadow: 2px 2px 5px ;
+
+} */
+
+/* common attributes among all panels */
+@media(min-width:600px){
+    .container-1{
+      display:flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: center;
+      position:absolute;
+      transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    text-align: center;
+    left: 50%;
+      
+    }
+.container-1 div{
+    border: double rgba(97, 97, 97, 1);
+  }
+}
+
+
+
+
+.title{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1em;
+    font-weight:500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color:snow;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.quote{
+    font-size: 1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    color: snow;
+    letter-spacing: 5px;
+    cursor: pointer;
+    position: absolute;
+    /* transform: translateX(-50%) translateY(-50%); */
+    top: 70%;
+    text-align:center;
+    left: 19%;
+    text-transform:uppercase;
+  }
+
+  .click{
+    font-size: 1em;
+    /* font-family: 'Silkscreen', cursive; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    color: snow;
+    letter-spacing: 5px;
+    cursor: pointer;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 80%;
+    text-align: center;
+    left: 50%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px snow;
+  }
