@@ -4,6 +4,7 @@ const overlay = document.getElementById('overlay')
 const map = L.map('map').setView([0,0], 1.5);
 
 
+
 // Create a button element
 const youtubeButton = document.createElement('button');
 youtubeButton.textContent = 'Watch our Documentary on YouTube';
@@ -34,7 +35,7 @@ youtubeButton.style.fontWeight = 'bold';
 
 const marker1 = L.marker([21.8182, 90.1398]).addTo(map); // Bangladesh
 marker1.bindPopup(
-  '<div class="title">Tabac by Le Maître</div> <img class ="tabac" src="tabac.jpg"> <h4 class="history"> History and Origin </h4> <div class="modal-body"> Le Maîtres aromas are poetic memories of a master perfumer, the perfect choice for the creative scent-lover. These perfumes are renowned for their truly unique and long-lasting scent. It claims to be a luxury fragrance store with 9 luxury perfumes in stock at the moment. Tabac is a rich, masculine perfume which can be used on formal and casual occasions. Tabac is one of the nine fragrances. </div> <h4 class="Ingredients"> Ingredients </h4> <div class="Ingredients_"> Smoky tobacco is mixed with dark wood tones to create a mysterious and dramatic scent. The top note is Cypriol, the heart notes are Tobacco, Guaiac Wood. The base notes are Benzoin, Leather, Cashmere Wood. </div> <h4 class="rise">Evolution</h4> <div class="rise_"> Le Maître is a very new brand and is yet to evolve. It has spread its roots across the UAE and is on the rise. With its luxury scents, it has attracted many locals as well as tourists. Moreover, it is liked by many upon trying it for the first time. </div>'
+  '<div class="title">Bangladeshi</div> <img class ="tabac" src="Bang.jpeg"> <h4 class="history"> About </h4> <div class="modal-body"> Ran into this amazing guy from Bangladesh at a restaurant where we were grabbing a bite. Turns out he&rsquo;s a fellow NYU alum, just like me, hanging out with his buddies. Been calling Jackson Heights home for a solid 16 years and can&rsquo;t get enough of the fantastic diversity the place offers. Living here has been quite the journey, and he&rsquo;s loving every bit of it!</div>'
   ,
   {
   minWidth:680,
@@ -44,7 +45,7 @@ marker1.bindPopup(
 
 const marker2 = L.marker([-1.8312, -78.1834]).addTo(map); // Ecuador
 marker2.bindPopup(
-  '<div class="title">Bint-El-Sudan</div> <img class ="tabac" src="sudan.jpeg"> </div> <h4 class="history">History and Origin</h4> <div class="modal-body"> Also known as “African Chanel No. 5”, Bint-El-Sudan translates to “daughter of Sudan”. The perfume was made in 1920 by Eric Burgess, a British adventurer. The perfume was advertised by hanging colorful posters in North African cities. It was first sold to African pilgrims on their way to Mecca and  was also used as a currency in trans-Saharan trade. The popularity and success of the perfume is associated not only with its smell but also the perfumes association with progressiveness. The bottle of the perfume shows a naked woman from Nigeria where strict islamic law was in place. </div> <h4 class="Ingredients"> Ingredients </h4> <div class="Ingredients_"> Natural floral notes with emphasis on jasmine, lilac and lily of the valley, with woody notes and undertones of musk and amber. </div> <h4 class="rise"> Evolution </h4> <div class="rise_"> Today the scent remains the same except for a few minute differences due to the availability of raw materials and new rules and regulations. A while ago it was used by women to add to their beauty, however now it is mostly used on wedding nights by both the bride and the groom. '
+  '<div class="title">Ecuadorian</div> <img class ="tabac" src="img.jpeg"> </div> <h4 class="history">About</h4> <div class="modal-body"> We encountered a delightful Ecuadorian woman at a charming bakery in Jackson Heights, where she had dedicated four years of her time. The bakery itself was a culinary haven, boasting mouthwatering cheesecakes. In our conversation, she illuminated the rich tapestry of culinary diversity that defined the area, noting how each street offered a unique and delectable cuisine experience.</div>'
   ,
   {
   minWidth:680,
@@ -54,7 +55,7 @@ marker2.bindPopup(
 
 const marker3 = L.marker([25.7494, 89.2611]).addTo(map); // Bangladesh
 marker3.bindPopup(
-  `<div class="title"> Bleu de Chanel </div> <img class ="tabac" src="chanel.jpg"> </div> <h4 class="history">History and Origin</h4> <div class="modal-body"> A men's fragrance created by Jacques Polge for French fashion house Chanel, Bleu de Chanel literally means "Chanel's Blue" or "Blue Chanel". Originally released in 2004, Allure Homme Sport was the brand's first men's fragrance and the first from its men's masterbrand since 1990. Olivier Polge formulated the 2018 parfum version after his father Jacques Polge formulated the 2014 eau de toilette version. For twelve years, Gaspard Ulliel served as Bleu de Chanel's ambassador and face, until he passed away in January 2022. </div> <h4 class="Ingredients">Ingredients</h4> <div class="Ingredients_"> Includes notes of bergamot, lemon, grapefruit, “deep blue sea accord”, peppermint, frankincense, pink pepper, nutmeg, ginger, jasmine, cedar, vetiver, patchouli, and labdanum. </div> <h4 class="rise"> Evolution </h4> <div class="rise_"> Bloomingdale's' 2010 Christmas sales were led by Bleu de Chanel, the chain's largest men's fragrance launch ever. According to The NPD Group, in January-October 2011 and January-August 2012, it was the second most popular men's fragrance. In 2016, it was the third most popular men's fragrance. The Fragrance Shop, a British retailer, revealed in June 2021 that Bleu de Chanel was the second most popular fragrance in the country. </div>`,
+  `<div class="title"> Bangladeshi </div> <img class ="tabac" src="img.jpeg"> </div> <h4 class="history">About</h4> <div class="modal-body"> Met an inspiring Bangladeshi lady who owns a boutique specializing in bridal clothing. She arrived in Jackson Heights in 1996 and embarked on her entrepreneurial journey, sharing that her business has flourished. Specializing in Indian bridal attire, she has found a home in Jackson Heights and loves the vibrant community that surrounds her store.</div>`,
   {
   minWidth:680,
   maxHeight:250
@@ -62,20 +63,20 @@ marker3.bindPopup(
 )
 
 
-
+// Dominican Republic
 const marker4 = L.marker([18.7357, -70.1627]).addTo(map); 
 marker4.bindPopup(
-  `<div class="title"> Bleu de Chanel </div> <img class ="tabac" src="chanel.jpg"> </div> <h4 class="history">History and Origin</h4> <div class="modal-body"> A men's fragrance created by Jacques Polge for French fashion house Chanel, Bleu de Chanel literally means "Chanel's Blue" or "Blue Chanel". Originally released in 2004, Allure Homme Sport was the brand's first men's fragrance and the first from its men's masterbrand since 1990. Olivier Polge formulated the 2018 parfum version after his father Jacques Polge formulated the 2014 eau de toilette version. For twelve years, Gaspard Ulliel served as Bleu de Chanel's ambassador and face, until he passed away in January 2022. </div> <h4 class="Ingredients">Ingredients</h4> <div class="Ingredients_"> Includes notes of bergamot, lemon, grapefruit, “deep blue sea accord”, peppermint, frankincense, pink pepper, nutmeg, ginger, jasmine, cedar, vetiver, patchouli, and labdanum. </div> <h4 class="rise"> Evolution </h4> <div class="rise_"> Bloomingdale's' 2010 Christmas sales were led by Bleu de Chanel, the chain's largest men's fragrance launch ever. According to The NPD Group, in January-October 2011 and January-August 2012, it was the second most popular men's fragrance. In 2016, it was the third most popular men's fragrance. The Fragrance Shop, a British retailer, revealed in June 2021 that Bleu de Chanel was the second most popular fragrance in the country. </div>`,
+  `<div class="title"> Dominican </div> <img class ="tabac" src="DR.jpeg"> </div> <h4 class="history">About</h4> <div class="modal-body"> Encountered a friendly individual from the Dominican Republic. Originally from the Bronx, he ventured to Jackson Heights for work on the advice of his uncle. Following his uncle's guidance, he embraced the opportunity and is thoroughly enjoying his experience here.</div>`,
   {
   minWidth:680,
   maxHeight:250
   }
 )
 
-
+// Peru
 const marker5 = L.marker([-9.1900, -75.0152]).addTo(map); 
 marker5.bindPopup(
-  `<div class="title"> Bleu de Chanel </div> <img class ="tabac" src="chanel.jpg"> </div> <h4 class="history">History and Origin</h4> <div class="modal-body"> A men's fragrance created by Jacques Polge for French fashion house Chanel, Bleu de Chanel literally means "Chanel's Blue" or "Blue Chanel". Originally released in 2004, Allure Homme Sport was the brand's first men's fragrance and the first from its men's masterbrand since 1990. Olivier Polge formulated the 2018 parfum version after his father Jacques Polge formulated the 2014 eau de toilette version. For twelve years, Gaspard Ulliel served as Bleu de Chanel's ambassador and face, until he passed away in January 2022. </div> <h4 class="Ingredients">Ingredients</h4> <div class="Ingredients_"> Includes notes of bergamot, lemon, grapefruit, “deep blue sea accord”, peppermint, frankincense, pink pepper, nutmeg, ginger, jasmine, cedar, vetiver, patchouli, and labdanum. </div> <h4 class="rise"> Evolution </h4> <div class="rise_"> Bloomingdale's' 2010 Christmas sales were led by Bleu de Chanel, the chain's largest men's fragrance launch ever. According to The NPD Group, in January-October 2011 and January-August 2012, it was the second most popular men's fragrance. In 2016, it was the third most popular men's fragrance. The Fragrance Shop, a British retailer, revealed in June 2021 that Bleu de Chanel was the second most popular fragrance in the country. </div>`,
+  `<div class="title"> Peruvian </div> <img class ="tabac" src="Peru.jpeg"> </div> <h4 class="history">About</h4> <div class="modal-body"> Encountered a warm-hearted Peruvian woman during my travels. She arrived in Jackson Heights, captivated by its vibrancy and liveliness. Although she found the area to be energetic, she opted not to raise her children there and aimed for a more education-focused district. Her perspective highlighted the diverse facets of Jackson Heights.</div>`,
   {
   minWidth:680,
   maxHeight:250
