@@ -1,51 +1,88 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Perfumes Map</title> <!--adding title for the webpage-->
-    <link rel="stylesheet" href="global1.css"/> <!--linking style sheet to add css-->
-    <script defer src="script.js"></script> <!--linking javascript file-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes Map</title>
+    <link rel="stylesheet" href="global1.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Silkscreen', sans-serif;
+        }
 
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet"> <!--importing google font-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .page0 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+        }
+
+        .start {
+            font-size: 5em;
+  font-family: 'Silkscreen', cursive;
+  font-weight: 500;
+  color: transparent;
+  letter-spacing: 5px;
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  text-align: center;
+  left: 50%;
+        }
+
+        .quote, .click, .title {
+            text-align: center;
+            color: #fff;
+            margin: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .start {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
-
-<body onload = "appearP0()"><!--div containing transition screen with portal gif, appearP0() is called so that only starting screen div is displayed-->
-    
+<body onload="appearP0()">
     <video autoplay muted loop id="myVideo">
         <source src="earth.mp4" type="video/mp4">
-      </video>
+    </video>
 
-    <div class="page0" id="page0"> <!--div containing starting screen-->
-            <a href ="global.html"><h2 class="start">Press Start
-                <br>
+    <div class="page0" id="page0">
+        <a href="global.html">
+            <h2 class="start">
+                Press Start<br>
+                Press Start<br>
                 Press Start
-                <br>
-                Press Start
-                <br>
-                Press Start
-                <br>
-                Press Start
-                <br>
-                Press Start
-                <br>
-                Press Start
-                <br>
-                Press Start
-        </h2></a>
-
-   
+            </h2>
+        </a>
     </div>
-    
-    <h2 class="quote">Smell is a word, perfume is literature. - Jean-Claude Ellena
-    </h2>
-    <h2 class="click">Click the Earth to teleport<br>into the world<br>of perfumes
-    </h2>
-    <h4 class="title">The perfumes of the World</h4>
-   
-</body>
 
+    <h2 class="quote">"The beauty of the world lies in the diversity of its people."</h2>
+    <h2 class="click">Click the Earth to teleport<br>into the world</h2>
+    <h4 class="title">Cultural Diversity in Jackson Heights</h4>
+</body>
 </html>
