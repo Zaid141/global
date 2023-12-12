@@ -21,7 +21,7 @@ youtubeButton.style.zIndex = '1000'; // Ensure the button appears above other el
 
 // Add an event listener to open the YouTube link on button click
 youtubeButton.addEventListener('click', function () {
-    window.open('https://www.youtube.com/', '_blank');
+    window.open('https://www.youtube.com/watch?v=fKaTlH9W2Wo', '_blank');
 });
 
 // Style the button
